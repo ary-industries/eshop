@@ -1,0 +1,256 @@
+/*              Basics              */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;  
+    color: white;
+    background-color: rgb(20, 20, 20);
+    min-height: 100vh;
+    transition: 0.1s;
+}      
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+}
+
+
+/*              HEADER                      */
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+    display: block;
+    
+    font-size: 1.2em;
+   
+}
+
+#navbar{
+    height: 90px;
+    background-color: rgb(0, 150, 200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: white !important;
+}
+
+header img{
+    height: 80px;
+}
+
+header ul{
+    padding-right: 10px;
+    
+}
+header a{
+    color: inherit;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    padding: 0 5px;
+}
+
+header li{
+    padding: 6px 0;
+    background-color: inherit;
+    border-radius: 15px;
+    min-width: 125px;
+    transition: all 0.3s;
+    /*  font  */
+    text-align: center;
+    color: inherit;
+    font-family: inherit;
+}
+
+header li:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+i{
+    font-size: 30px;
+}
+
+#bars, #x{
+    font-size: 20px;
+    display: none;
+}
+
+/*          Menu            */
+
+#basic{
+    display: flex;
+    flex-direction: row;
+}
+#basic ul{
+    display: inherit;
+    flex-direction: inherit;
+}
+
+#dropdown{
+    display: none;
+    width: 50vw;
+    background-color: rgb(0, 150, 200);
+    border-radius: 0 0 10px 10px;
+    margin-left: auto;
+    padding: 25px 55px 25px 25px;
+    transition: 0.2s;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+/*          |Button|                */
+
+#color-mode-btn, 
+#dropdown-color-mode-btn{
+    padding: 6px 0;
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0);
+    color: inherit;
+    transition: all 0.3s;
+    min-width: 125px;
+
+    /*  font  */
+    text-align: center;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+#color-mode-btn:hover, 
+#dropdown-color-mode-btn:hover{
+    transform: scale(1.05);
+    transition: all 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+/*          Color Mode          */ 
+
+.light-mode{
+    background-color: white;
+    color: black;
+    transition: 0.1s;
+}
+
+.light-mode header li:hover{
+    background-color: white;
+    color: black;
+}
+
+.light-mode #color-mode-btn,
+.light-mode #dropdown-color-mode-btn{
+    background-color: white;
+    color: black;
+}
+
+.light-mode #color-mode-btn:hover, 
+.light-mode #dropdown-color-mode-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+@media (max-width:850px) {
+    #dropdown{
+        display: none;
+        flex-direction: column;
+    }
+
+    #bars{
+        display: flex;
+    }
+
+    #basic{
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    #dropdown{
+        width: 100%;
+    }
+}
+
+@media (min-width: 850px) {
+    #dropdown, #x, #bars{
+        display: none !important;
+    }
+}
+
+@media (max-height: 500px){
+    footer{
+        margin-top: 500px;
+    }
+}
+
+ 
+
+
+.show #dropdown, .show #x{
+    display: flex;
+    transition: 0.3s;
+}
+
+.show #bars{
+    display: none;
+}
+
+
+/***********************FOOTER*************************/
+
+footer{
+    display: flex;
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer a:hover{
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.mainfoot{
+    width: 25%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secfoot{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+}

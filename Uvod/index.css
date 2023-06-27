@@ -1,0 +1,9 @@
+﻿main p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+   
+    font-size: 75px;
+    
+    height: 200px;
+}
