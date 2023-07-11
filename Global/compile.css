@@ -19,6 +19,8 @@ body {
 
 p {
     font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main {
@@ -80,11 +82,12 @@ header li {
     text-align: center;
     color: inherit;
     font-family: inherit;
+    transition: 0.3s;
 }
 
 header li:hover {
     transform: scale(1.05);
-
+    transition: 0.3s;
     background-color: rgb(255, 255, 255);
     color: black;
 
