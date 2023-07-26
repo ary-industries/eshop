@@ -94,7 +94,7 @@ header li:hover {
 
 i {
     font-size: 30px;
-    
+
 }
 
 #bars, #x {
@@ -186,9 +186,10 @@ i {
 
 
 @media (max-width: 850px) {
-    #dropdown ul{
+    #dropdown ul {
         padding: 0;
     }
+
     #dropdown {
         display: none;
         flex-direction: column;
@@ -203,11 +204,11 @@ i {
         display: none;
     }
 
-    #dropdown li{
+    #dropdown li {
         font-size: 1.35em;
     }
 
-    #dropdown-color-mode-btn{
+    #dropdown-color-mode-btn {
         font-size: 1.35em;
     }
 }
@@ -242,20 +243,24 @@ i {
 
 
 /***********************FOOTER*************************/
-p{
+p {
     padding-top: 1rem;
 }
-.spacing{
+
+.spacing {
     height: 0.6rem;
 }
-span{
+
+span {
     padding: 0.2rem 0 0.2rem 0;
 }
-hr{
+
+hr {
     display: flex;
     border: solid 3px rgb(0, 150, 200);
     width: 50%;
 }
+
 footer {
     display: flex;
     padding: 20px 40px 5px 40px;
@@ -296,7 +301,7 @@ footer a:hover {
     justify-content: space-between; /* Center horizontally */
     align-items: left; /* Center vertically */
     flex-direction: column;
-    
+
 }
 
 .secfoot {

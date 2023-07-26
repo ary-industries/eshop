@@ -8,14 +8,14 @@ let originalText;
 
 // Set the initial mode and text content of the color mode button
 if (currentMode === 'light') {
-  body.classList.add('light-mode');
-  originalText = darkText;
-  basicColorModeBtn.textContent = darkText;
-  dropdownColorModeBtn.textContent = darkText;
+    body.classList.add('light-mode');
+    originalText = darkText;
+    basicColorModeBtn.textContent = darkText;
+    dropdownColorModeBtn.textContent = darkText;
 } else {
-  originalText = lightText;
-  basicColorModeBtn.textContent = lightText;
-  dropdownColorModeBtn.textContent = lightText;
+    originalText = lightText;
+    basicColorModeBtn.textContent = lightText;
+    dropdownColorModeBtn.textContent = lightText;
 }
 
 // Add event listener to color mode buttons
@@ -24,27 +24,25 @@ dropdownColorModeBtn.addEventListener('click', toggleColorMode);
 
 // Function to toggle the color mode
 function toggleColorMode() {
-  // Toggle the light-mode class on the body element
-  body.classList.toggle('light-mode');
+    // Toggle the light-mode class on the body element
+    body.classList.toggle('light-mode');
 
-  // Update the text content of the color mode buttons
-  if (body.classList.contains('light-mode')) {
-    basicColorModeBtn.textContent = darkText;
-    dropdownColorModeBtn.textContent = darkText;
-  } else {
-    basicColorModeBtn.textContent = lightText;
-    dropdownColorModeBtn.textContent = lightText;
-  }
+    // Update the text content of the color mode buttons
+    if (body.classList.contains('light-mode')) {
+        basicColorModeBtn.textContent = darkText;
+        dropdownColorModeBtn.textContent = darkText;
+    } else {
+        basicColorModeBtn.textContent = lightText;
+        dropdownColorModeBtn.textContent = lightText;
+    }
 
-  // Save the color mode preference in localStorage
-  if (body.classList.contains('light-mode')) {
-    localStorage.setItem('colorMode', 'light');
-  } else {
-    localStorage.setItem('colorMode', 'dark');
-  }
+    // Save the color mode preference in localStorage
+    if (body.classList.contains('light-mode')) {
+        localStorage.setItem('colorMode', 'light');
+    } else {
+        localStorage.setItem('colorMode', 'dark');
+    }
 }
-
-
 
 
 //                    Click
@@ -52,5 +50,5 @@ function toggleColorMode() {
 const bars = document.querySelector('#click');
 
 bars.addEventListener('click', () => {
-  body.classList.toggle('show');
+    body.classList.toggle('show');
 });
