@@ -299,7 +299,6 @@ footer a:hover {
     height: fit-content;
     display: flex;
     justify-content: space-between; /* Center horizontally */
-    align-items: left; /* Center vertically */
     flex-direction: column;
 
 }
