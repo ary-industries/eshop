@@ -18,21 +18,40 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 1rem;
     display: flex;
     flex-wrap: wrap;
 }
-
 main {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
+    flex-direction: column;
+    padding-top: 200px;
     padding-bottom: 100px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     height: 100vh;
+    gap: 2rem;
+}
+
+.cell{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 1rem;
+}
+
+.left{
+    margin-right: auto;
+}
+
+.right{
+    margin-left: auto;
+}
+
+.right h1, .right hr{
+    text-align: right;
+    margin-left: auto;
 }
 
 
@@ -57,7 +76,7 @@ header {
 }
 
 header img {
-    height: 65%;
+    height: 80%;
 }
 
 header ul {
@@ -139,9 +158,8 @@ i {
     color: inherit;
     transition: 0.3s;
     min-width: 125px;
-
-
     /*  font  */
+
     text-align: center;
     font-weight: inherit;
     font-size: inherit;
@@ -243,8 +261,8 @@ i {
 
 
 /***********************FOOTER*************************/
-p {
-    padding-top: 1rem;
+footer p {
+    padding-top: 0.8rem;
 }
 
 .spacing {
@@ -258,7 +276,7 @@ span {
 hr {
     display: flex;
     border: solid 3px rgb(0, 150, 200);
-    width: 50%;
+    width: 100%;
 }
 
 footer {
