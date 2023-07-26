@@ -9,7 +9,7 @@
 }
 
 body {
-    font-size: 10px;
+    font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
@@ -43,8 +43,7 @@ header {
     top: 0;
     width: 100%;
     display: block;
-    font-size: 1.2em;
-
+    font-size: 0.8rem;
 }
 
 #navbar {
@@ -58,7 +57,7 @@ header {
 }
 
 header img {
-    height: 80px;
+    height: 65%;
 }
 
 header ul {
@@ -95,6 +94,7 @@ header li:hover {
 
 i {
     font-size: 30px;
+    
 }
 
 #bars, #x {
@@ -242,7 +242,20 @@ i {
 
 
 /***********************FOOTER*************************/
-
+p{
+    padding-top: 1rem;
+}
+.spacing{
+    height: 0.6rem;
+}
+span{
+    padding: 0.2rem 0 0.2rem 0;
+}
+hr{
+    display: flex;
+    border: solid 3px rgb(0, 150, 200);
+    width: 50%;
+}
 footer {
     display: flex;
     padding: 20px 40px 5px 40px;
@@ -253,17 +266,20 @@ footer {
     flex-direction: column;
     color: white;
     gap: 10px;
+    transition: 0.3s;
+    font-size: inherit;
 }
 
 footer a {
     color: white;
     text-decoration: none;
-
+    transition: 0.3s;
 
 }
 
 footer a:hover {
-    scale: 1.1;
+    scale: 1.2;
+    transition: 0.3s;
 
 }
 
@@ -278,8 +294,9 @@ footer a:hover {
     height: fit-content;
     display: flex;
     justify-content: space-between; /* Center horizontally */
-    align-items: center; /* Center vertically */
-
+    align-items: left; /* Center vertically */
+    flex-direction: column;
+    
 }
 
 .secfoot {
@@ -294,6 +311,7 @@ footer a:hover {
 .copyright {
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    font-size: 0.75em;
 }
 
 @media (max-width: 850px) {
