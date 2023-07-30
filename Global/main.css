@@ -84,9 +84,6 @@ p {
     main{
         flex-direction: column;
     }
-    .cell{
-        width: 100%;
-    }
     #dropdown ul {
         padding: 0;
     }
@@ -111,9 +108,6 @@ p {
 
     #dropdown-color-mode-btn {
         font-size: 1.35em;
-    }
-    h1{
-        justify-content: left !important;
     }
 }
 
