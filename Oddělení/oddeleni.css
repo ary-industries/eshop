@@ -1,0 +1,13 @@
+.cell {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+}
+.right {
+    margin-left: auto;
+}
+
+.right h1, .right hr {
+    justify-content: right;
+}

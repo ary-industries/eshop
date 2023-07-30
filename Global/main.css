@@ -36,25 +36,13 @@ main {
     min-height: 100vh;
     gap: 3rem;
 }
-.cell {
-    display: flex;
-    flex-direction: column;
-    width: 60%;
-    gap: 1rem;
-}
-.right {
-    margin-left: auto;
-}
-
-.right h1, .right hr {
-    justify-content: right;
-}
 
 
 /*          Text        */
 hr {
     display: flex;
     border: solid 3px rgb(0, 150, 200);
+    border-radius: 1rem;
     width: 100%;
     margin-bottom: 1rem;
 }
