@@ -1,7 +1,10 @@
+main{
+    flex-direction: column;
+}
 iframe{
     aspect-ratio: 9 / 16;
     height: 500px;
 }
-.cell-1{
+.cell{
     width: fit-content;
 }

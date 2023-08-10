@@ -1,0 +1,21 @@
+main{
+    flex-direction: row;
+}
+.cell {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+.right {
+    margin-left: auto;
+}
+
+.right h1, .right hr {
+    justify-content: right;
+}
+
+iframe{
+    width: 100%;
+    aspect-ratio: 12 / 9;
+}

@@ -1,3 +1,6 @@
+main{
+    flex-direction: column;
+}
 .cell {
     display: flex;
     flex-direction: column;
@@ -11,7 +14,6 @@
 .right h1, .right hr {
     justify-content: right;
 }
-
 
 @media (max-width: 950px) {
     .cell{

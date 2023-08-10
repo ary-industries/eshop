@@ -21,13 +21,13 @@
 body {
     font-size: 1rem;
     font-family: 'Poppins';
+    font-weight: 500;
     color: rgb(255, 255, 255);
     background-color: rgb(20, 20, 20);
     transition: 0.3s;
 }
 main {
     display: flex;
-    flex-direction: column;
     padding-top: 125px;
     padding-bottom: 125px;
     background-color: inherit;
@@ -55,10 +55,11 @@ hr {
     letter-spacing: 0.2rem;
     text-align: center;
 }
-
 h1{
     display: flex;
     justify-content: left;
+    font-family: inherit;
+    font-weight: inherit;
 }
 
 
