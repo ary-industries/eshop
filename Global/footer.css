@@ -38,13 +38,13 @@ footer {
 
 
 footer a {
-    color: white;
+color: white;
     text-decoration: none;
     transition: 0.3s;
 
 }
 footer a:hover {
-    scale: 1.2;
+    scale: 1.1;
     transition: 0.3s;
 
 }
