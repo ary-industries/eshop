@@ -67,11 +67,11 @@ h1{
 
 p {
     font-size: 1rem;
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     font-family: 'Bitter';
     font-weight: 500;
     letter-spacing: 0.05rem;
+    
 }
 
 a {
@@ -80,10 +80,19 @@ a {
     transition: 0.3s;
 }
 
-
-a:hover{
-    transition: 0.3s;
+main a{
+    font-style: italic;
+    text-decoration: underline;
+    color: inherit;
 }
+
+
+main a:hover , footer a:hover{
+    transition: 0.3s;
+    color: rgb(0, 150, 200);
+}
+
+
 
 
 

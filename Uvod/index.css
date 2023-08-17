@@ -11,4 +11,5 @@ a:hover{
 }
 main a{
     font-style: italic;
+    text-decoration: underline;
 }
