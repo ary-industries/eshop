@@ -8,7 +8,10 @@ h1{
 }
 a:hover{
     color: rgb(0, 150, 200);
+    cursor: pointer;
 }
 main a{
     font-style: italic;
+    color: inherit;
+    font-weight: 200;
 }
