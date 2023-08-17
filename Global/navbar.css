@@ -1,0 +1,127 @@
+/*          Color Mode          */
+
+.light-mode #color-mode-btn,
+.light-mode #dropdown-color-mode-btn {
+    background-color: white;
+    color: black;
+
+}
+.light-mode #color-mode-btn:hover,
+.light-mode #dropdown-color-mode-btn:hover {
+    background-color: black;
+    color: white;
+
+
+}
+
+/*          Header              */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+}
+#navbar {
+    height: 90px;
+    background-color: rgb(0, 150, 200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+}
+
+#basic {
+    display: flex;
+    flex-direction: row;
+}
+#basic ul {
+    display: flex;
+    flex-direction: inherit;
+}
+#dropdown {
+    display: none;
+    width: 50vw;
+    background-color: rgb(0, 150, 200);
+    border-radius: 0 0 10px 10px;
+    margin-left: auto;
+    padding: 25px ;
+    gap: 20px;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+
+
+header ul {
+    padding-right: 10px;
+
+}
+header a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 0 5px;
+}
+
+header li {
+    padding: 6px 0;
+    background-color: inherit;
+    border-radius: 10rem;
+    min-width: 120px;
+    text-align: center;
+    color: inherit;
+    font-family: inherit;
+    transition: 0.3s;
+}
+header li:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+header img{
+    height: 80%;
+}
+i {
+    font-size: 30px;
+
+}
+#bars, #x {
+    font-size: 20px;
+    display: none;
+}
+
+
+
+/*              Button          */
+
+#color-mode-btn,
+#dropdown-color-mode-btn {
+    padding: 6px 0;
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0);
+    color: inherit;
+    transition: 0.3s;
+    min-width: 125px;
+    /*  font  */
+
+    text-align: center;
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+#color-mode-btn:hover,
+#dropdown-color-mode-btn:hover {
+    transform: scale(1.05);
+
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}

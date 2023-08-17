@@ -1,0 +1,14 @@
+﻿main{
+    flex-direction: column;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+a:hover{
+    color: rgb(0, 150, 200);
+}
+main a{
+    font-style: italic;
+}

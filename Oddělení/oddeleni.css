@@ -1,0 +1,25 @@
+main{
+    flex-direction: column;
+}
+.cell {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+}
+.right {
+    margin-left: auto;
+}
+
+.right h1, .right hr {
+    justify-content: right;
+}
+
+@media (max-width: 950px) {
+    .cell{
+        width: 100%;
+    }
+    h1{
+        justify-content: left !important;
+    }
+}

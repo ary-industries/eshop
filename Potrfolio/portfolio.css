@@ -1,0 +1,34 @@
+main{
+    display: block;
+}
+.cell{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+}
+
+.tall{
+    aspect-ratio: 9 /16;
+    height: 300px;;
+}
+
+.wide{
+    aspect-ratio: 21 / 9;
+    height: 300px;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (max-width:950px) {
+    .wide{
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
