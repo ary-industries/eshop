@@ -21,6 +21,7 @@ main div a{
     height: 40vh;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 3rem;
 }
 
 .map{
@@ -103,6 +104,7 @@ main i{
         justify-content: center;
         width: 100%;
         height: fit-content;
+        padding: 0;
         }
 
     .social{
