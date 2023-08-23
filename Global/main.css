@@ -27,6 +27,7 @@ body {
     color: rgb(255, 255, 255);
     background-color: rgb(20, 20, 20);
     transition: 0.3s;
+    display: block;
 }
 main {
     display: flex;
@@ -80,7 +81,7 @@ p {
 a {
     color: white;
     text-decoration: none;
-    
+    transition: 0.3s;
 }
 
 main a{
