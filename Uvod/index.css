@@ -1,15 +1,10 @@
 ﻿main{
     flex-direction: column;
-    font-family: 'Bitter', serif;
-}
-p{
-    font-family: 'Bitter', serif;
 }
 h1{
     width: 100%;
     text-align: center;
     justify-content: center;
-    font-family: 'Bitter', serif;
 }
 a:hover{
     color: rgb(0, 150, 200);
@@ -17,5 +12,4 @@ a:hover{
 main a{
     font-style: italic;
     text-decoration: underline;
-    font-family: 'Bitter', serif;
 }
