@@ -46,6 +46,7 @@ color: white;
 footer a:hover {
     scale: 1.1;
     transition: 0.3s;
+    color: rgb(0, 150, 200)
 
 }
 

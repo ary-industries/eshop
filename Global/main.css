@@ -91,7 +91,7 @@ main a{
 }
 
 
-main a:hover , footer a:hover{
+main a:hover{
     transition: 0.3s;
     color: rgb(0, 150, 200);
 }
